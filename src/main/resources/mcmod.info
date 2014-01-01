@@ -1,0 +1,16 @@
+[
+{
+  "modid": "packages",
+  "name": "Packages",
+  "description": "Adds packages to Minecraft so that you can ship goods.",
+  "version": "0.1.0-SNAPSHOT",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["nh_99", "Fatalnix"],
+  "credits": "infina",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

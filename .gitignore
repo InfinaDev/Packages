@@ -1,6 +1,24 @@
 *.class
 
-# Package Files #
-*.jar
-*.war
-*.ear
+/bin/
+/build/
+/eclipse/
+*.log
+*.log.*
+.classpath
+.project
+!.gitignore
+/.gradle/
+/.settings/
+!/gradle/
+!/src/
+*.db
+
+#Ignore minecraft build files
+/config/
+/crash-reports/
+/mods/
+/resourcepacks/
+/saves/
+/stats/
+options.txt
