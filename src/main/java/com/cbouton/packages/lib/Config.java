@@ -12,6 +12,9 @@ public class Config {
 		//TODO: Add items to config here
 		
 		config.load();
+		ItemStatics.PACKAGE = configuration.getItem(
+                                        "Package", ItemStatics.ITEM_PACKAGE_DEFAULT)
+                                        .getInt(ItemStatics.ITEM_PACKAGE_DEFAULT) - 256;
 		config.save();
 	}
 
